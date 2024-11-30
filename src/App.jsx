@@ -12,18 +12,17 @@ import Home from "./pages/Home"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
-  console.log("App is rendering");
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-      <Hero /> 
-      <About /> 
-      <Skills />
-      <Projects /> 
-      <Footer />
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Hero /> 
+        <About /> 
+        <Skills />
+        <Projects /> 
+        <Footer />
     </BrowserRouter>
   )
 }
