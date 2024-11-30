@@ -1,10 +1,23 @@
-.active {
-    text-decoration: none;
-    border-bottom:2px solid rgb(214, 111, 214);
-    padding:4px 0;
+  
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
   }
   
-  nav a {
-    text-decoration: none;
+  .nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
   
+  .nav-bar li {
+    margin: 0;
+    padding: 0;
   }

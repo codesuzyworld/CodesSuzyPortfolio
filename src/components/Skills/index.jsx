@@ -16,9 +16,9 @@ export default function Skills() {
               // const data = await response.json();
               const data = [{
                   "_id": "674ac0de8ad68c7f3d877e4c",
-                  "name": "Front End Dev",
+                  "name": "Front End Development",
                   "tagColor": "#c85656",
-                  "subskills": ["Javascript", "Node.js"],
+                  "subskills": ["Javascript", "React", "HTML", "CSS", "Typescript"],
                   "__v": 0
               }];
               
@@ -37,10 +37,18 @@ export default function Skills() {
       fetchSkills();
     }, []);
 
+    let skillColor = [
+      "#8E6044",
+      "#774740",
+      "#604F62",
+      "#515B48",
+      "#4F5662",
+    ]
+
       return(
         <div className="skillSection">
-        <div>{name || "Loading Skill Name..."}</div>
-        <div>{tagColor || "Loading tagColor..."}</div>
+        <h2>Skills</h2>
+        <div className={styles.skillName}>{name || "Loading Skill Name..."}</div>
         <div>{subskills && subskills.length > 0 && (
           <div className={styles.skillStack}>
             <div className={styles.skillList}>
@@ -48,8 +56,10 @@ export default function Skills() {
                   <span 
                     key={index}
                     className={styles.skillTag}
-                    style={{ backgroundColor: '#444', color: '#fff' }}>
-                    {tech}
+                    style={{ 
+                      backgroundColor: skillColor[Math.floor(Math.random() * skillColor.length)], 
+                      color: '#F3E4CB' 
+                    }}>{tech}
                   </span>
                 ))}
               </div>

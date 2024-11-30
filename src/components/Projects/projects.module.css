@@ -1,8 +1,58 @@
 
 .projectSection {
-    margin: 20px 0;
+    display: flex;
+    min-width: 50vw;
+    height:auto;
+    padding: 69px 54px;
+    flex-direction: column;
+}
+
+.projectCard {
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-self: left;
     border-radius: 50px;
     background: #412C2C;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.projectImage {
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+}
+
+.projectImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.projectName {
+    font-size: 1.5em;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.projectDescription {
+    color: #FFF;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .projectStack {
@@ -17,7 +67,39 @@
 }
 
 .stackTag {
-    padding: 4px 8px;
-    border-radius: 4px;
+    padding: 6px 12px;
+    border-radius: 20px;
     font-size: 0.9em;
+
+    color: #F3E4CB;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.413px;
+}
+
+.projectButton{
+    text-decoration: none;
+    border-radius: 20px;
+    background: #6E382F;
+
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.413px;
+
+    transition: all 0.3s ease;
+}
+
+.projectButton:hover {
+    background: #8B463A;
+    transform: translateY(-2px);
 }

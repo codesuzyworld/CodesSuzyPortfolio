@@ -1,31 +1,17 @@
-.header {
-    padding: 10px 20px;
-    background-color: #1881c8; 
-    color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 30px 30px 0 0;
-    min-width: 500px;
-    margin: 0;
-  }
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
   
- .site-name {
-    text-decoration: none;
-    margin: 0;
-    font-size: 1rem;
-  }
-  
-  .site-name a {
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
+.logo{
+  font-size: 1.5rem;
+  font-weight: 700;
+  min-width: 200px;
+}
 
-  .siteLink{
-    font-size: 2.5 rem;
-    text-align: center;
-    align-self: center;
-  }
-  
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
