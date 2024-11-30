@@ -3,15 +3,12 @@ import styles from "./nav.module.css"
 
 export default function Nav() {
   return (
-    <nav id="nav-bar" aria-label="Main menu">
+    <nav className={styles['nav-bar']} id="nav-bar" aria-label="Main menu">
       <ul>
-      <li>
+        <li>
           <NavLink 
             to="/"
-            className={
-              ({ isActive }) =>
-                isActive ? styles.active : ""
-            }
+            className={({ isActive }) => isActive ? styles.active : ""}
           >
             Home
           </NavLink>

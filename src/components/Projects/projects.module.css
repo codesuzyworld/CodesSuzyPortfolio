@@ -3,8 +3,9 @@
     display: flex;
     min-width: 50vw;
     height:auto;
-    padding: 69px 54px;
     flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .projectCard {
