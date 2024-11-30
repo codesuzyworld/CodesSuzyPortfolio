@@ -3,7 +3,7 @@ import styles from "./nav.module.css"
 
 export default function Nav() {
   return (
-    <nav className={styles['nav-bar']} id="nav-bar" aria-label="Main menu">
+    <nav className={styles['navBar']} aria-label="Main menu">
       <ul>
         <li>
           <NavLink 

@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
 }
 
 body{
@@ -25,7 +26,7 @@ body{
   justify-content: center;
   padding: 0px 100px;
   min-height: 100vh;
-  margin: 0; 
+  margin: auto;
 }
 
 
@@ -60,6 +61,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 
@@ -76,6 +78,7 @@ body{
   align-items: center;
   padding: 1rem;
   width: 100%;
+  margin: auto;
 }
 
 .nav-bar ul {
@@ -83,12 +86,10 @@ body{
   flex-direction: row;
   list-style-type: none;
   gap: 2rem;
-  margin: 0;
   padding: 0;
 }
 
 .nav-bar li {
-  margin: 0;
   padding: 0;
 }
 
@@ -97,11 +98,14 @@ body{
   :root {
     color: #213547;
     background-color: #ffffff;
+    margin: auto;
   }
   a:hover {
     color:  #e8dba2;
+    margin: auto;
   }
   button {
     background-color: #f9f9f9;
+    margin: auto;
   }
 }

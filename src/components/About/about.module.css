@@ -3,14 +3,14 @@
     flex-direction: column;
     align-items: center;
     gap: 0px;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: auto;
 }
 
 .about-me-container{
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    margin: auto;
 }
 
 .past{
@@ -24,8 +24,8 @@
     justify-content: flex-end;
     align-items: flex-start;
     gap: 10px;
-    margin: 0px;
-    }
+    margin: auto;
+}
 
 .pastContent{
     display: flex;
@@ -34,7 +34,7 @@
     gap: 10px;
 }
 .pastContent h1{
-    margin: 0px;
+    margin: 0;
 }
 
 .now{
@@ -48,7 +48,7 @@
     justify-content: flex-end;
     align-items: flex-start;
     gap: 10px;
-    margin: 0px;
+    margin: auto;
 }
 
 .nowContent{
@@ -56,10 +56,9 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+    margin: auto;
 }
 
 .nowContent h1{
-    margin: 0px;
+    margin: 0;
 }
-
-

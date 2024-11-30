@@ -1,11 +1,10 @@
 
 .projectSection {
     display: flex;
-    width: 800px;
-    height:auto;
+    width: 80vw;
+    height: auto;
     flex-direction: column;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem auto;
     gap: 20px;
 }
 
@@ -19,6 +18,7 @@
     align-self: left;
     border-radius: 50px;
     background: #412C2C;
+    margin: auto;
 }
 
 .projectInfo {
@@ -27,6 +27,7 @@
     align-items: flex-start;
     gap: 10px;
     max-width: 600px;
+
 }
 
 .projectImage {
@@ -59,63 +60,57 @@
 }
 
 .projectStack {
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 .stackList {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 5px;
+    margin: 5px auto auto auto;
 }
 
 .stackTag {
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 0.9em;
-
     color: #F3E4CB;
     text-align: center;
     font-style: normal;
     font-weight: 700;
     line-height: 18.413px;
     transition: all 0.3s ease;
-cursor: pointer;
+    cursor: pointer;
 }
 
-
 .stackTag:hover {
-animation: tremble 0.3s infinite;
+    animation: tremble 0.3s infinite;
 }
 
 @keyframes tremble {
-0% { transform: translate(0, 0) rotate(0deg); }
-25% { transform: translate(1px, 1px) rotate(1deg); }
-50% { transform: translate(-1px, -1px) rotate(-1deg); }
-75% { transform: translate(-1px, 1px) rotate(1deg); }
-100% { transform: translate(1px, -1px) rotate(-1deg); }
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(1px, 1px) rotate(1deg); }
+    50% { transform: translate(-1px, -1px) rotate(-1deg); }
+    75% { transform: translate(-1px, 1px) rotate(1deg); }
+    100% { transform: translate(1px, -1px) rotate(-1deg); }
 }
 
-
-.projectButton{
+.projectButton {
     text-decoration: none;
     border-radius: 20px;
     background: #6E382F;
     cursor: pointer;
-
     display: flex;
     padding: 10px 30px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-
     color: #FFF;
     text-align: center;
     font-size: 1em;
     font-style: normal;
     font-weight: 700;
     line-height: 18.413px;
-
     transition: all 0.3s ease;
 }
 

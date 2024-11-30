@@ -1,6 +1,6 @@
 .hero{
     display: flex;
-    width: 800px;
+    width: 50vw;
     height:auto;
     padding: 195px 90px;
     flex-direction: column;
@@ -9,6 +9,8 @@
     align-self: stretch;
     border-radius: 50px;
     background: #412C2C;
+    margin: auto;
+
 }
 
 .hero-title{
@@ -39,7 +41,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
-    margin: 0;
 }
 
 .role-green{
@@ -60,4 +61,5 @@
     font-style: normal;
     font-weight: 500;
     max-width: 800px;
+    margin: 0;
 }
