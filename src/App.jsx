@@ -19,8 +19,8 @@ function App() {
         <Route path="/" element={<Home />} />
       </Routes>
       <About /> 
-      <Projects /> 
       <Skills />
+      <Projects /> 
       <Footer />
     </BrowserRouter>
   )

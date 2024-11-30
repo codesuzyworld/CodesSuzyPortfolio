@@ -1,0 +1,23 @@
+
+.skillSection {
+    margin: 20px 0;
+    border-radius: 50px;
+    background: #412C2C;
+}
+
+.skillStack {
+    margin: 10px 0;
+}
+
+.skillList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.skillTag {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}

@@ -11,7 +11,7 @@ export default function Projects() {
   const [stack, setStack] = useState(null);
   const [image, setImage] = useState(null);
 
-  // Fetch question on component mount
+  // Fetch projec on component mount
   useEffect(() => {
       const fetchProject = async () => {
           try {
