@@ -4,7 +4,7 @@
     width: auto;
     height: auto;
     flex-direction: column;
-    margin: 200px auto;
+    margin: 100px auto 0 auto;
     gap: 20px;
 }
 
@@ -144,22 +144,35 @@
         padding: 10px;
         flex-direction: column;
         gap: 5px;
+        border-radius: 30px;
     }
 
     .projectImage {
         width: auto;
-        height: 250px;
-        padding: 20px;
+        height: auto;
+        padding: 10px;
     }
     
     .projectImage img {
         width: 100%;
         height: auto;
     }
-    
+    .projectInfo {
+        align-items: center;
+        max-width: 500px;
+        padding: 10px;
+    }
+
+    .projectSection {
+        margin: 20px auto 0 auto;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 599px) {
+    .projectSection {
+        margin: 20px auto 0 auto;
+    }
+
     .projectName {
         font-size: 1em;
     }
@@ -177,6 +190,7 @@
         padding: 10px;
         flex-direction: column;
         gap: 5px;
+        border-radius: 30px;
     }
 
     .projectImage {
@@ -189,9 +203,19 @@
         width: 100%;
         height: auto;
     }
+
+    .projectInfo {
+        align-items: center;
+        max-width: 500px;
+        padding: 20px;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
+    .projectSection {
+        margin: 20px auto 0 auto;
+    }
+    
     .projectName {
         font-size: 1.5em;
     }
@@ -218,6 +242,12 @@
     .projectImage img {
         width: auto;
         height: 100%;
+        padding: 20px;
+    }
+
+    .projectInfo {
+        align-items: center;
+        max-width: 500px;
         padding: 20px;
     }
 }
@@ -241,7 +271,7 @@
         gap: 5px;
     }
     .projectImage {
-        width: auto;
+        max-width: 300px;
         height: 100%;
         padding: 20px;
     }
@@ -250,9 +280,16 @@
         width: 100%;
         height: auto;
     }
-    
+    .projectInfo {
+        align-items: center;
+        max-width: 500px;
+        padding: 20px;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1700px) {
-
+    .projectInfo {
+        width: 1600px;
+    }
 }

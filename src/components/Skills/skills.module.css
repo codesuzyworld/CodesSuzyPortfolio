@@ -7,7 +7,7 @@
     align-items: center;
     gap: 0px;
     padding: 0 50px 0 50px;
-    margin: 200px auto;
+    margin: 100px auto 0 auto;
 }
 
 .skillContainer {
@@ -86,7 +86,7 @@
     .skillSection {
         align-items: center;
         padding: 0 10px 0 10px;
-        margin: 200px auto;
+        margin: 50px auto;
     }
 
     .skillContainer {
@@ -110,24 +110,63 @@
 }
 
 @media (min-width: 481px) and (max-width: 599px) {
-
+    .skillSection {
+        align-items: center;
+        padding: 0 10px 0 10px;
+        margin: 50px auto;
+    }
+    .skillContainer{
+        border-radius: 30px;
+     }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
-
+    .skillSection {
+        align-items: center;
+        padding: 0 10px 0 10px;
+        margin: 50px auto;
+    }
+    .skillContainer{
+        border-radius: 30px;
+     }
 }
 @media (min-width: 600px) and (max-width: 767px) {
-
+    .skillSection {
+        align-items: center;
+        padding: 0 10px 0 10px;
+        margin: 50px auto;
+    }
+    .skillContainer{
+        border-radius: 30px;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
+    .skillSection {
+        max-width: 1000px;
+    }
 
+    .skillContainer {
+        border-radius: 30px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1700px) {
+    .skillSection {
+        max-width: 800px;
+    }
 
+    .skillContainer {
+        max-width: 800px;
+    }
 }
 
 @media (min-width: 1700px){
+    .skillSection {
+        max-width: 1000px;
+    }
 
+    .skillContainer {
+        max-width: 1000px;
+    }
 }

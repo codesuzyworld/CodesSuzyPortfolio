@@ -71,6 +71,10 @@
 
 
 @media (max-width: 480px) {
+    .about-me{
+        padding: 150px 0px 20px 0px;
+    }
+
     .about-me-container{
         display: flex;
         flex-direction: column;
@@ -79,41 +83,121 @@
     }
 
     .pastContent h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .nowContent h1{
+        font-size: 2rem;
+    }
+
+    .pastContent p{
+        font-size: 1rem;
+    }
+
+    .nowContent p{
         font-size: 1rem;
     }
 }
 
 @media (min-width: 481px) and (max-width: 599px) {
+    .about-me{
+        padding: 150px 0px 20px 0px;
+    }
+
     .about-me-container{
         display: flex;
         flex-direction: column;
         gap: 2rem;
         margin: auto;
+    }
+    .pastContent h1{
+        font-size: 2rem;
+    }
+
+    .nowContent h1{
+        font-size: 2rem;
+    }
+
+    .pastContent p{
+        font-size: 1rem;
+    }
+
+    .nowContent p{
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
+    .about-me{
+        padding: 150px 0px 20px 0px;
+    }
+
     .about-me-container{
         display: flex;
         flex-direction: column;
         gap: 2rem;
         margin: auto;
     }
+    .pastContent h1{
+        font-size: 2rem;
+    }
+
+    .nowContent h1{
+        font-size: 2rem;
+    }
+
+    .pastContent p{
+        font-size: 1rem;
+    }
+
+    .nowContent p{
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
+    .about-me{
+        padding: 150px 0px 20px 0px;
+    }
+
     .about-me-container{
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin: auto;
+        max-width: 1500px;
+    }
+
+    .past{
+        width: auto;
+        height: 400px;
+        padding: 40px;
+    }
+
+    .now{
+        width: auto;
+        height: 400px;
+        padding: 40px;
+    }
+}
+
+@media (min-width: 1200px){
+    .about-me-container{
+        max-width: 1500px;
+    }
+    .past{
+        width: 400px;
+        padding: 40px;
+    }
+
+    .now{
+        width: 400px;
+        padding: 40px;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1700px) {
+    .skillSection {
+        max-width: 500px;
+    }
 
+    .skillContainer {
+        max-width: 500px;
+    }
 }

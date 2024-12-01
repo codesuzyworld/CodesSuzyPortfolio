@@ -56,7 +56,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    position: relative; 
+    position: relative;
     top: 100px;
 }
 
@@ -109,12 +109,21 @@
 
 @media (max-width: 480px) {
     .hero {
-        background-image: url('/assets/heroBGImageMobile.png');
-        padding: 100px 10px;
+        background-image: url('/assets/heroBGImageMobileSmall.png');
+        padding: 100px 0px;
         height: 50vh;
     }
     .hero-title {
         font-size: 3em;
+    }
+
+    .hero-text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 50px;
+        left: 20px;
     }
     
     .hero-subtitle {
@@ -122,7 +131,8 @@
     }
     
     .hero-description {
-        font-size: 1em;
+        font-size: 0.8em;
+        min-width: 300px;
     }
 
     .role-container{
@@ -138,10 +148,21 @@
 
 @media (min-width: 481px) and (max-width: 599px) {
     .hero {
-        background-image: url('/assets/heroBGImageMobile.png');
+        background-image: url('/assets/heroBGImageMobileSmall.png');
         padding: 100px 10px;
         height: 50vh;
     }
+
+    .hero-text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+    }
+    
+    
     .hero-title {
         font-size: 3em;
     }
@@ -151,7 +172,8 @@
     }
     
     .hero-description {
-        font-size: 1em;
+        font-size: 0.8em;
+        min-width: 300px;
     }
 
     .role-container{
@@ -167,7 +189,7 @@
 
 @media (min-width: 600px) and (max-width: 767px) {
     .hero {
-        background-image: url('/assets/heroBGImageMobile.png');
+        background-image: url('/assets/heroBGImageMobileSmall.png');
         padding: 100px 10px;
         height: 50vh;
     }
@@ -181,6 +203,7 @@
     
     .hero-description {
         font-size: 1em;
+        min-width: 300px;
     }
 
     .role-container{
@@ -242,5 +265,9 @@
         position: relative; 
         top: 0px;
         bottom: 500px;
+    }
+
+    .hero-description {
+        max-width: 700px;
     }
 }
