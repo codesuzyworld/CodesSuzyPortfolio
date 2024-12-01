@@ -4,6 +4,7 @@
     align-items: center;
     gap: 0px;
     margin: auto;
+    padding: 150px 0px 150px 0px;
 }
 
 .about-me-container{
@@ -17,7 +18,7 @@
     border-radius: 50px;
     background: #774740;
     display: flex;
-    max-width: 250px;
+    max-width: 500px;
     height:auto;
     padding: 40px;
     flex-direction: column;
@@ -32,16 +33,19 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+    margin: auto;
+    font-size: 1.5rem;
 }
 .pastContent h1{
     margin: 0;
+    font-size: 3rem;
 }
 
 .now{
     border-radius: 50px;
     background: #8E6044;
     display: flex;
-    max-width: 250px;
+    max-width: 500px;
     height:auto;
     padding: 40px;
     flex-direction: column;
@@ -57,10 +61,12 @@
     align-items: flex-start;
     gap: 10px;
     margin: auto;
+    font-size: 1.5rem;
 }
 
 .nowContent h1{
     margin: 0;
+    font-size: 3rem;
 }
 
 

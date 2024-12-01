@@ -2,7 +2,7 @@
 .skillSection {
     display: flex;
     height: auto;
-    min-width: 50vw;
+    min-width: 80vw;
     flex-direction: column;
     align-items: center;
     gap: 0px;
@@ -11,13 +11,16 @@
 }
 
 .skillContainer {
-    width: 1000px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: left;
     margin: auto;
+    background-color: #412C2C;
+    padding: 50px 100px 50px 100px;
+    border-radius: 50px;
 }
 
 .skillList {
@@ -38,6 +41,17 @@
     gap: 24px;
 }
 
+.skillName {
+    color: #E4C398;
+    font-family: Quicksand;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin: 0.5em auto;
+}
+
 .skillTag {
     display: flex;
     padding: 8px 20px;
@@ -48,7 +62,7 @@
     color: #F3E4CB;
     text-align: left;
     font-family: Quicksand;
-    font-size: 1em;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
@@ -68,13 +82,3 @@
     100% { transform: translate(1px, -1px) rotate(-1deg); }
 }
 
-.skillName {
-    color: #E4C398;
-    font-family: Quicksand;
-    font-size: 1.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: left;
-    margin: 0.5em auto;
-}

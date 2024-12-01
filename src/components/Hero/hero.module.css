@@ -1,8 +1,8 @@
 .hero{
     display: flex;
     position: relative;
-    width: auto;
-    height: 50vh;
+    width: 1300px;
+    height: 80vh;
     padding: 200px 100px;
     flex-direction: column;
     align-items: flex-start;
@@ -12,7 +12,7 @@
     background-image: url('/assets/heroBGImage.png');
     background-size: cover;
     background-position: center;
-    margin: auto;
+    margin: 50px auto;
     overflow: hidden;
 }
 .hero-container{
@@ -59,6 +59,7 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative; 
+    top: 100px;
 }
 
 .hero-subtitle{
@@ -112,6 +113,7 @@
     .hero {
         background-image: url('/assets/heroBGImageMobile.png');
         padding: 100px 10px;
+        height: 50vh;
     }
     .hero-title {
         font-size: 3em;
@@ -130,6 +132,7 @@
     .hero {
         background-image: url('/assets/heroBGImageMobile.png');
         padding: 100px 20px;
+        height: 50vh;
     }
 
     .hero-title {
@@ -149,6 +152,7 @@
     .hero {
         background-image: url('/assets/heroBGImageMobile.png');
         padding: 100px 30px;
+        height: 50vh;
     }
     .hero-title {
         font-size: 3em;
@@ -166,6 +170,7 @@
     .hero {
         background-image: url('/assets/heroBGImageMobile.png');
         padding: 100px 30px;
+        height: 60vh;
     } 
 }
 
@@ -173,6 +178,7 @@
     .hero {
         background-image: url('/assets/heroBGImageMobile.png');
         padding: 100px 60px;
+        height: 60vh;
     }
 }
 
@@ -180,17 +186,34 @@
     .hero {
         background-image: url('/assets/heroBGImageMidScreen.png');
         padding: 100px 60px;
+        height: 60vh;
+    }
+    .hero-text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative; 
+        top: 0px;
+        bottom: 500px;
     }
 }
 
 @media (min-width: 1700px){
     .hero {
-        padding: 100px 150px;
-        justify-content: center; 
+        padding: 100px 60px;
         height: 60vh;
+        width: 1500px;
     }
 
     .hero-container {
         margin: auto 0; 
+    }
+    .hero-text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative; 
+        top: 0px;
+        bottom: 500px;
     }
 }
