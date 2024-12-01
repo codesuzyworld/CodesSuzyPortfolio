@@ -9,7 +9,7 @@
     gap: 0.3rem;
     align-self: stretch;
     border-radius: 50px;
-    background-image: url('src/assets/heroBGImage.png');
+    background-image: url('../../public/assets/heroBGImage.png');
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -110,7 +110,7 @@
 
 @media (max-width: 480px) {
     .hero {
-        background-image: url('src/assets/heroBGImageMobile.png');
+        background-image: url('../../public/assets/heroBGImageMobile.png');
         padding: 100px 10px;
     }
     .hero-title {
@@ -128,7 +128,7 @@
 
 @media (min-width: 481px) and (max-width: 599px) {
     .hero {
-        background-image: url('src/assets/heroBGImageMobile.png');
+        background-image: url('../../public/assets/heroBGImageMobile.png');
         padding: 100px 20px;
     }
 
@@ -147,7 +147,7 @@
 
 @media (min-width: 600px) and (max-width: 767px) {
     .hero {
-        background-image: url('src/assets/heroBGImageMobile.png');
+        background-image: url('../../public/assets/heroBGImageMobile.png');
         padding: 100px 30px;
     }
     .hero-title {
@@ -164,21 +164,21 @@
 }
 @media (min-width: 600px) and (max-width: 767px) {
     .hero {
-        background-image: url('src/assets/heroBGImageMobile.png');
+        background-image: url('../../public/assets/heroBGImageMobile.png');
         padding: 100px 30px;
     } 
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
     .hero {
-        background-image: url('src/assets/heroBGImageMobile.png');
+        background-image: url('../../public/assets/heroBGImageMobile.png');
         padding: 100px 60px;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1700px) {
     .hero {
-        background-image: url('src/assets/heroBGImageMidScreen.png');
+        background-image: url('../../public/assets/heroBGImageMidScreen.png');
         padding: 100px 60px;
     }
 }
