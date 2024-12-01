@@ -4,7 +4,7 @@
     width: 80vw;
     height: auto;
     flex-direction: column;
-    margin: 5rem auto;
+    margin: 200px auto;
     gap: 20px;
 }
 
@@ -19,6 +19,12 @@
     border-radius: 50px;
     background: #412C2C;
     margin: auto;
+    transition: all 0.3s ease;
+}
+
+.projectCard:hover {
+    background: #4d3535;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .projectInfo {

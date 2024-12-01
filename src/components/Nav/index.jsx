@@ -1,4 +1,3 @@
-import {NavLink} from "react-router-dom"
 import styles from "./nav.module.css"
 
 export default function Nav() {
@@ -6,12 +5,13 @@ export default function Nav() {
     <nav className={styles['navBar']} aria-label="Main menu">
       <ul>
         <li>
-          <NavLink 
-            to="/"
-            className={({ isActive }) => isActive ? styles.active : ""}
-          >
-            Home
-          </NavLink>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
         </li>
       </ul>
     </nav>

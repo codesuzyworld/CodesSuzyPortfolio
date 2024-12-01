@@ -3,7 +3,7 @@ import styles from "./about.module.css"
 export default function About() {
     console.log("About component rendering"); // Add this line
       return(
-        <section className={styles["about-me"]}>
+        <section className={styles["about-me"]} id="about">
           <h2>About Me</h2>
           <div className={styles["about-me-container"]}>
           <article className={styles.past}>

@@ -29,7 +29,7 @@ export default function Skills() {
     ]
 
     return (
-        <div className="skillSection">
+        <div className="skillSection" id="skills">
           <h2>Skills</h2>
           <div className={styles.skillContainer}>
             {skills.map((skill, skillIndex) => (
