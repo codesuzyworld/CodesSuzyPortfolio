@@ -113,6 +113,17 @@
         background-image: url('src/assets/heroBGImageMobile.png');
         padding: 100px 10px;
     }
+    .hero-title {
+        font-size: 3em;
+    }
+    
+    .hero-subtitle {
+        font-size: 2em;
+    }
+    
+    .hero-description {
+        font-size: 1.2em;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 599px) {
@@ -120,12 +131,35 @@
         background-image: url('src/assets/heroBGImageMobile.png');
         padding: 100px 20px;
     }
+
+    .hero-title {
+        font-size: 3em;
+    }
+    
+    .hero-subtitle {
+        font-size: 2em;
+    }
+    
+    .hero-description {
+        font-size: 1.2em;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
     .hero {
         background-image: url('src/assets/heroBGImageMobile.png');
         padding: 100px 30px;
+    }
+    .hero-title {
+        font-size: 3em;
+    }
+    
+    .hero-subtitle {
+        font-size: 2em;
+    }
+    
+    .hero-description {
+        font-size: 1.2em;
     }
 }
 @media (min-width: 600px) and (max-width: 767px) {
