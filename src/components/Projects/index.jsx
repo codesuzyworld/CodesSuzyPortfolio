@@ -40,7 +40,7 @@ export default function Projects() {
 
   // Rest of your component code remains the same
   return (
-    <div className={styles.projectSection}>
+    <div className={styles.projectSection}  id="projects">
       <h2>Projects</h2>
       {projects.map((project, index) => (
         <div className={styles.projectCard} key={index}>
