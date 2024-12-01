@@ -2,7 +2,7 @@
 .skillSection {
     display: flex;
     height: auto;
-    min-width: 80vw;
+    width: auto;
     flex-direction: column;
     align-items: center;
     gap: 0px;
@@ -11,7 +11,7 @@
 }
 
 .skillContainer {
-    width: 900px;
+    width: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -61,7 +61,6 @@
     border-radius: 72px;
     color: #F3E4CB;
     text-align: left;
-    font-family: Quicksand;
     font-size: 1.5em;
     font-style: normal;
     font-weight: 700;
@@ -82,3 +81,53 @@
     100% { transform: translate(1px, -1px) rotate(-1deg); }
 }
 
+@media (max-width: 480px) {
+    
+    .skillSection {
+        align-items: center;
+        padding: 0 10px 0 10px;
+        margin: 200px auto;
+    }
+
+    .skillContainer {
+        gap: 10px;
+        padding: 50px 25px 50px 25px;
+        border-radius: 50px;
+    }
+
+    .skillName {
+        font-size: 1em;
+        margin: 0.5em auto;
+    }
+    
+    .skillTag {
+        padding: 5px 20px;
+        gap: 2px;
+        text-align: left;
+        font-size: 0.8em;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 599px) {
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+}
+@media (min-width: 600px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+
+}
+
+@media (min-width: 1700px){
+
+}

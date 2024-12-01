@@ -1,7 +1,7 @@
 
 .projectSection {
     display: flex;
-    width: 80vw;
+    width: auto;
     height: auto;
     flex-direction: column;
     margin: 200px auto;
@@ -33,6 +33,7 @@
     align-items: flex-start;
     gap: 10px;
     max-width: 600px;
+    width: auto;
 }
 
 .projectImage {
@@ -62,6 +63,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    width: auto;
 }
 
 .projectStack {
@@ -125,48 +127,130 @@
 }
 
 @media (max-width: 480px) {
+    .projectName {
+        font-size: 1em;
+    }
+    
+    .projectDescription {
+        font-size: 1em;
+    }
 
-}
-
-@media (min-width: 481px) and (max-width: 599px) {
-
-}
-
-@media (min-width: 600px) and (max-width: 767px) {
- 
-}
-
-@media (min-width: 767px) and (max-width: 1200px) {
-
-    .projectSection {
-        display: flex;
-        width: 50vw;
-        height: auto;
-        flex-direction: column;
-        margin: auto;
-        gap: 20px;
+    .stackTag {
+        padding: 3px 12px;
+        font-size: 1em;
     }
     
     .projectCard {
-        display: flex;
-        padding: 30px;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        align-self: left;
-        border-radius: 50px;
-        background: #412C2C;
-        margin: auto;
+        padding: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .projectImage {
+        width: auto;
+        height: 250px;
+        padding: 20px;
     }
     
-    .projectInfo {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        max-width: 300px;
+    .projectImage img {
+        width: 100%;
+        height: auto;
     }
+    
+}
+
+@media (min-width: 481px) and (max-width: 599px) {
+    .projectName {
+        font-size: 1em;
+    }
+    
+    .projectDescription {
+        font-size: 0.5em;
+    }
+
+    .stackTag {
+        padding: 3px 12px;
+        font-size: 1em;
+    }
+
+    .projectCard {
+        padding: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .projectImage {
+        width: auto;
+        height: 250px;
+        padding: 20px;
+    }
+    
+    .projectImage img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .projectName {
+        font-size: 1.5em;
+    }
+    
+    .projectDescription {
+        font-size: 1em;
+    }
+
+    .stackTag {
+        padding: 6px 12px;
+        font-size: 1em;
+    }
+    .projectCard {
+        padding: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .projectImage {
+        width: auto;
+        height: 250px;
+        padding: 20px;
+    }
+    
+    .projectImage img {
+        width: auto;
+        height: 100%;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+    .projectName {
+        font-size: 1.5em;
+    }
+    
+    .projectDescription {
+        font-size: 1em;
+    }
+
+    .stackTag {
+        padding: 6px 12px;
+        font-size: 1em;
+    }
+    .projectCard {
+        padding: 30px 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .projectImage {
+        width: auto;
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .projectImage img {
+        width: 100%;
+        height: auto;
+    }
+    
 }
 
 @media (min-width: 1200px) and (max-width: 1700px) {

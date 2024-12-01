@@ -3,7 +3,7 @@ header{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 50vw;
+  width: auto;
   margin: auto;
 }
   
@@ -18,4 +18,62 @@ header{
   color: #412C2C;
   transform: scale(1.05);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px) {
+
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } 
+  .logo{
+    font-size: 1rem;
+    font-weight: 700;
+    min-width: 150px;
+    padding: 1rem;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 599px) {
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  } 
+  .logo{
+    font-size: 1rem;
+    font-weight: 700;
+    min-width: 150px;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+  } 
+  .logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    min-width: 200px;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+
 }
