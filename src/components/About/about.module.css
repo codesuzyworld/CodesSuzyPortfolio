@@ -62,3 +62,44 @@
 .nowContent h1{
     margin: 0;
 }
+
+
+@media (max-width: 480px) {
+    .about-me-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 599px) {
+    .about-me-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .about-me-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+    .about-me-container{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+
+}

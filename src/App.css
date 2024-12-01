@@ -37,5 +37,33 @@ h2{
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin: auto;
+  margin: 1.5em auto;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 599px) {
+  body {
+    padding: 0px 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  body {
+    padding: 0px 30px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  body {
+    padding: 0px 60px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+
 }
