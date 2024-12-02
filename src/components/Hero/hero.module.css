@@ -107,49 +107,52 @@
     color: #CAA1A1;
 }
 
-@media (max-width: 480px) {
-    .hero {
-        background-image: url('/assets/heroBGImageMobileSmall.png');
-        padding: 100px 0px;
-        height: 50vh;
-    }
-    .hero-title {
-        font-size: 3em;
-    }
-
-    .hero-text-container{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: absolute;
-        top: 50px;
-        left: 20px;
-    }
-    
-    .hero-subtitle {
-        font-size: 2em;
-    }
-    
-    .hero-description {
-        font-size: 0.8em;
-        min-width: 300px;
-    }
-
-    .role-container{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        font-size: 1em;
-        font-style: normal;
-        line-height: 10px;
-        width: 100%; 
-    }
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 0;
 }
+
+.social-icons i {
+    font-size: 3rem; 
+    color: #fff; 
+    transition: color 0.3s ease; 
+}
+
+.social-icons i:hover {
+    color: #E4C398; 
+}
+
+.resume-button {
+    text-decoration: none;
+    border-radius: 20px;
+    background: #968068;
+    cursor: pointer;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.413px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.resume-button:hover {
+    background: #a28b72;
+    transform: translateY(-2px);
+}
+
 @media (max-width: 480px) {
     .hero {
         background-image: url('/assets/heroBGImageMobileSmall.png');
         padding: 100px 10px;
-        height: 60vh;
+        height: 65vh;
         margin: 10px auto;
     }
 
@@ -160,8 +163,8 @@
         position: absolute;
         top: 50px;
         left: 20px;
+        gap: 10px;
     }
-    
     
     .hero-title {
         font-size: 3em;
@@ -174,6 +177,7 @@
     .hero-description {
         font-size: 0.8em;
         min-width: 300px;
+        padding: 5px 0;
     }
 
     .role-container{
@@ -184,8 +188,42 @@
         font-style: normal;
         line-height: 10px;
         width: 100%; 
+        padding: 5px 0;
+    }
+
+    .role-green{
+        margin: 5px;
+    }   
+    
+    .role-beige{
+        margin: 5px;
     }
     
+    .role-pink{
+        margin: 5px;
+    }
+    .social-icons i {
+        font-size: 1.5rem; 
+        color: #fff; 
+        transition: color 0.3s ease; 
+    }
+    
+    .social-icons i:hover {
+        color: #E4C398; 
+    }
+
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 5px 0;
+    }
+
+    .resume-button {
+        padding: 5px 30px;
+        font-size: 0.8em;
+    }
+
   }
 
 @media (min-width: 481px) and (max-width: 599px) {
@@ -227,6 +265,23 @@
         line-height: 10px;
         width: 100%; 
     }
+
+    .social-icons i {
+        font-size: 1.5rem; 
+        color: #fff; 
+        transition: color 0.3s ease; 
+    }
+    
+    .social-icons i:hover {
+        color: #E4C398; 
+    }
+
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 5px 0;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
@@ -257,6 +312,9 @@
         line-height: 10px;
         width: 100%; 
     }
+    .hero-text-container{
+        top: 5px;
+    }
 }
 @media (min-width: 600px) and (max-width: 767px) {
     .hero {
@@ -264,6 +322,9 @@
         padding: 100px 30px;
         height: 60vh;
     } 
+    .hero-text-container{
+        top: 5px;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
@@ -271,6 +332,10 @@
         background-image: url('/assets/heroBGImageMobile.png');
         padding: 100px 60px;
         height: 60vh;
+    }
+
+    .hero-text-container{
+        top: 5px;
     }
 }
 
