@@ -6,7 +6,6 @@ export default function Projects() {
 
   const [projects, setProjects] = useState([]);
 
-  // Fetch projec on component mount
   useEffect(() => {
     const fetchProjects = async () => {
         try {

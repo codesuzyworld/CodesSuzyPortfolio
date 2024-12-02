@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import styles from "./skills.module.css"
 
 export default function Skills() {
-    console.log("Skills component rendering"); 
     const [skills, setSkills] = useState([]); 
   
     useEffect(() => {

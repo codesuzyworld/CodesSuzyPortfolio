@@ -2,7 +2,6 @@ import styles from "./hero.module.css"
 
 
 export default function Hero() {
-    console.log("Hero component rendering"); 
       return(
         <section className={styles["hero"]}>
           <div className={styles["hero-container"]}>
