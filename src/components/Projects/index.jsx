@@ -44,24 +44,24 @@ export default function Projects() {
             {project.image?.data && 
                 <img 
                   src={`data:${project.image.contentType};base64,${project.image.data}`} 
-                  alt={project.name || "Project"} 
+                  alt={project.name} 
                 />
             }
           </div>
           <div className={styles.projectInfo}>
-            <div className={styles.projectName}>{project.name || "Loading Project Name..."}</div>
+            <div className={styles.projectName}>{project.name}</div>
             <div>{project.stack && project.stack.length > 0 && (
               <div className={styles.projectStack}>
                 <div className={styles.stackList}>
-                  {project.stack.map((tech, techIndex) => (
+                  {project.stack.map((stack, stackIndex) => (
                     <span 
-                      key={techIndex}
+                      key={stackIndex}
                       className={styles.stackTag}
                       style={{ 
                         backgroundColor: skillColor[Math.floor(Math.random() * skillColor.length)], 
                         color: '#F3E4CB' 
                       }}>
-                      {tech}
+                      {stack}
                     </span>
                   ))}
                 </div>

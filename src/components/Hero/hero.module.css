@@ -378,3 +378,72 @@
         max-width: 700px;
     }
 }
+
+
+@media (max-height:800px){
+    .hero {
+        background-image: url('/assets/heroBGImageMidScreen.png');
+        padding: 100px 10px;
+        height: 50vh;
+        margin: 0;
+        background-size: cover;
+    }
+
+    .hero-title {
+        font-size: 2.5em;
+    }
+    
+    .hero-subtitle {
+        font-size: 2em;
+    }
+    
+    .hero-description {
+        font-size: 0.8em;
+        min-width: 300px;
+    }
+
+    .hero-text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative; 
+        top: 0px;
+        left:50px;
+        bottom: 800px;
+    }
+
+    .role-container{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        font-size: 1em;
+        font-style: normal;
+        line-height: 10px;
+        width: 100%; 
+    }
+
+    .social-icons i {
+        font-size: 1.5rem; 
+        color: #fff; 
+        transition: color 0.3s ease; 
+    }
+    
+    .social-icons i:hover {
+        color: #E4C398; 
+    }
+
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 5px 0;
+    }
+
+    .resume-button {
+
+        padding: 5px 30px;
+        gap: 10px;
+        font-size: 1em;
+
+    }
+}

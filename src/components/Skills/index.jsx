@@ -33,7 +33,7 @@ export default function Skills() {
           <div className={styles.skillContainer}>
             {skills.map((skill, skillIndex) => (
               <div key={skillIndex}>
-                <div className={styles.skillName}>{skill.name || "Loading Skill Name..."}</div>
+                <div className={styles.skillName}>{skill.name}</div>
                 {skill.subskills && skill.subskills.length > 0 && (
                   <div className={styles.skillStack}>
                     {skill.subskills.map((tech, index) => (
