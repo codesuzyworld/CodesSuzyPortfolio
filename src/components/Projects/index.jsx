@@ -18,8 +18,6 @@ export default function Projects() {
           
             const data = await response.json();
             console.log('Fetched data:', data);
-            
-            // Store all projects in state
             setProjects(data);
         } catch (error) {
             console.error("Error fetching projects:", error);
@@ -38,7 +36,6 @@ export default function Projects() {
     "#4F5662",
   ]
 
-  // Rest of your component code remains the same
   return (
     <div className={styles.projectSection}  id="projects">
       <h2>Projects</h2>
