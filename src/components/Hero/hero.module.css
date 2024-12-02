@@ -380,7 +380,7 @@
 }
 
 
-@media (max-height:800px){
+@media (max-height:800px) and (min-width: 1000px){
     .hero {
         background-image: url('/assets/heroBGImageMidScreen.png');
         padding: 100px 10px;
