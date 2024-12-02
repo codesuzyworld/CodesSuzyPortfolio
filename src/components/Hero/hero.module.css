@@ -145,6 +145,48 @@
         width: 100%; 
     }
 }
+@media (max-width: 480px) {
+    .hero {
+        background-image: url('/assets/heroBGImageMobileSmall.png');
+        padding: 100px 10px;
+        height: 60vh;
+        margin: 10px auto;
+    }
+
+    .hero-text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+    }
+    
+    
+    .hero-title {
+        font-size: 3em;
+    }
+    
+    .hero-subtitle {
+        font-size: 2em;
+    }
+    
+    .hero-description {
+        font-size: 0.8em;
+        min-width: 300px;
+    }
+
+    .role-container{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        font-size: 1em;
+        font-style: normal;
+        line-height: 10px;
+        width: 100%; 
+    }
+    
+  }
 
 @media (min-width: 481px) and (max-width: 599px) {
     .hero {
@@ -250,7 +292,7 @@
 
 @media (min-width: 1700px){
     .hero {
-        padding: 100px 60px;
+        padding: 120px 60px;
         height: 60vh;
         width: 1500px;
     }
