@@ -24,7 +24,7 @@ export default function Hero() {
 
                 <a 
                 className={styles["resume-button"]}
-                href="https://drive.google.com/file/d/11MfuDbzdGmlE4pGtL8JkclhRNf7zwmCr/view">
+                href="https://drive.google.com/file/d/1PqS-086DfnKIoJA70cy7sCCHMyl2tHK5/view?usp=sharing">
                   Resume
                 </a>
               </div>
