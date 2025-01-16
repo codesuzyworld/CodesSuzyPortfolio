@@ -13,6 +13,9 @@ export default function Nav() {
         <li>
           <a href="#projects">Projects</a>
         </li>
+        <li>
+          <a href="https://suzannadraws.myportfolio.com/">Design Portfolio</a>
+        </li>
       </ul>
     </nav>
   )

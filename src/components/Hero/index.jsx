@@ -27,6 +27,7 @@ export default function Hero() {
                 href="https://drive.google.com/file/d/1PqS-086DfnKIoJA70cy7sCCHMyl2tHK5/view?usp=sharing">
                   Resume
                 </a>
+
               </div>
             </div>
           </div>
